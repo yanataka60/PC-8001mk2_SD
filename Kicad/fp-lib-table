@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name pc8001mk2)(type KiCad)(uri ${KIPRJMOD}/pc8001mk2.pretty)(options "")(descr ""))
+  (lib (name Kicad)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+)
