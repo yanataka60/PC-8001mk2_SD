@@ -43,7 +43,7 @@
 |7|4|MOSI|
 |8|6|CS|
 
-![MicroSD Card Adapter](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/MicroSD%20Card%20Adapter.JPG)
+![MicroSD Card Adapter](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/MicroSD%20Card%20Adapter.JPG)
 
 ## ROMへの書込み
 　Z80フォルダ内のEXT_ROM_SHIFT_OFF.bin又はEXT_ROM_SHIFT_ON.binをROMライター(TL866II Plus等)を使って2764又は28C64に書き込み、本体内拡張ROMソケットに装着します。
