@@ -48,39 +48,58 @@
 ## ROMへの書込み
 　Z80フォルダ内のEXT_ROM_SHIFT_OFF.bin又はEXT_ROM_SHIFT_ON.binをROMライター(TL866II Plus等)を使って2764又は28C64に書き込み、本体内拡張ROMソケットに装着します。
 
-　PC-8001mk2の場合には、PC-8001mk2_SDを使いたくない時でも拡張ROMを簡単には外せないのでSHIFTキーを押しながら電源ON又はリセットすることでソフトウェア的に動作を切り替えられるようにしています。
+　拡張ROMを本体内拡張ROMソケットに装着しますのでPC-8001mk2_SDを使いたくない時に拡張ROMを外すのは非常に面倒です。
+
+　そこでSHIFTキーを押しながら電源ON又はリセットすることでソフトウェア的に動作を切り替えられるようにしています。
 
 　二つの違いは、
 
-　○EXT_ROM_SHIFT_OFF.bin(通常PC-8001mk2_SDを使いたい人向け)
+　●EXT_ROM_SHIFT_OFF.bin(通常PC-8001mk2_SDを使いたい人向け)
 
-　　普通に電源ON又はリセットする                -> PC-8001mk2_SDを使う。
+　　・普通に電源ON又はリセットする                -> PC-8001mk2_SDを使う。
 
-　　SHIFTキーを押しながら電源ON又はリセットする -> PC-8001mk2_SDを切り離す。
+　　・SHIFTキーを押しながら電源ON又はリセットする -> PC-8001mk2_SDを切り離す。
 
-　○EXT_ROM_SHIFT_ON.bin(通常PC-8001mk2_SDを使わない人向け)
+　●EXT_ROM_SHIFT_ON.bin(通常PC-8001mk2_SDを使わない人向け)
 
-　　普通に電源ON又はリセットする                -> PC-8001mk2_SDを切り離す。
+　　・普通に電源ON又はリセットする                -> PC-8001mk2_SDを切り離す。
 
-　　SHIFTキーを押しながら電源ON又はリセットする -> PC-8001mk2_SDを使う。
+　　・SHIFTキーを押しながら電源ON又はリセットする -> PC-8001mk2_SDを使う。
+
+　ソースはPC-8001_SDリポジトリ、Z80フォルダ内のEXT_ROM.sに統合されています。
+
+　アッセンブルするときは、49行をコメントアウトし、51行のセミコロン (;)を削除してください。
+
+　また、EXT_ROM_SHIFT_ON.binを作成するには、126行をコメントアウトし、123行のセミコロン (;)を削除します。
 
 ## Arduinoプログラム
-　Arduino IDEを使ってArduinoフォルダのPC-8001_SDフォルダ内PC-8001_SD.inoを書き込みます。
+　Arduino IDEを使ってPC-8001_SDリポジトリ、Arduinoフォルダ、PC-8001_SDフォルダ内PC-8001_SD.inoを書き込みます。
 
 　SdFatライブラリを使用しているのでArduino IDEメニューのライブラリの管理からライブラリマネージャを立ち上げて「SdFat」をインストールしてください。
 
 　「SdFat」で検索すれば見つかります。「SdFat」と「SdFat - Adafruit Fork」が見つかりますが「SdFat」のほうを使っています。
 
-注)Arduinoを基板に直付けしている場合、Arduinoプログラムを書き込むときは、PC-8001本体とは接続を外し、74LS04を外したうえで書き込んでください。
+注)Arduinoを基板に直付けしている場合、Arduinoプログラムを書き込むときは、拡張スロットから取り出し、74LS04を外したうえで書き込んでください。
 
-## 接続
-　PC-8001本体後ろの拡張端子に接続します。
-### フラットケーブルによる接続
-![Flat cable1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(3).JPG)
+## 拡張スロットへの挿入
+### そのまま挿入する場合
+　横幅が短くスロットガイドに届きませんので厚さ5mm程度のゴム足などをつけて挿入します。
 
-### カードエッジコネクタによる接続
-![Card Edge Connector1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(4).JPG)
-![Card Edge Connector1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(5).JPG)
+![Slot1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(3).JPG)
+
+### 補助板をつけスロットガイドを利用する場合
+　基板の左右に補助板を取り付ければスロットガイドに沿って挿入することができるようになります。
+
+#### 本体後ろから見て右側に取り付ける補助版のサイズ
+　84mm(奥行)×65mm(幅)×1.6mm(厚さ)
+
+#### 本体後ろから見て左側に取り付ける補助版のサイズ
+　84mm(奥行)×55mm(幅)×1.6mm(厚さ)
+
+画像ではセロテープで仮止めしています。
+
+![Slot2](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(4).JPG)
+![Slot3](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(5).JPG)
 
 ## SD-CARD
 　FAT16又はFAT32が認識できます。
