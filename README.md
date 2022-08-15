@@ -43,7 +43,7 @@
 |7|4|MOSI|
 |8|6|CS|
 
-![MicroSD Card Adapter](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/MicroSD%20Card%20Adapter.JPG)
+![MicroSD Card Adapter](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/MicroSD%20Card%20Adapter.JPG)
 
 ## ROMへの書込み
 　Z80フォルダ内のEXT_ROM_SHIFT_OFF.bin又はEXT_ROM_SHIFT_ON.binをROMライター(TL866II Plus等)を使って2764又は28C64に書き込み、本体内拡張ROMソケットに装着します。
@@ -327,22 +327,22 @@ Sの後ろ、アドレス、データの区切りに空白が有っても無く�
 
 例)サウンド付きRally-xの場合
 
-![AutoRun1](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/autorun(1).JPG)
+![AutoRun1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/autorun(1).JPG)
 
 　CTRL+BをCTRL+Cに修正
 
-![AutoRun2](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/autorun(2).JPG)
+![AutoRun2](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/autorun(2).JPG)
 
 
 例)DeepScanの場合
 
-![AutoRun3](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/autorun(3).JPG)
+![AutoRun3](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/autorun(3).JPG)
 
 　BASICプログラム中のClear文を確認して値を設定、CTRL+BをCTRL+Cに、CLOAD"DS"をLOAD""に修正
 
-![AutoRun4](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/autorun(4).JPG)
+![AutoRun4](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/autorun(4).JPG)
 
-![AutoRun5](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/autorun(5).JPG)
+![AutoRun5](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/autorun(5).JPG)
 
 
 ## 操作上の注意
