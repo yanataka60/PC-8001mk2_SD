@@ -1,6 +1,6 @@
 # PC-8001mk2にSD-CARDからCMT形式ファイルのロード、セーブ機能
 
-![PC-8001mk2_SD](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/TITLE.jpg)
+![PC-8001mk2_SD](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/TITLE.jpg)
 
 　PC-8001mk2でSD-CARDからCMT形式ファイルのロード、セーブ機能を実現するものです。
 
@@ -13,9 +13,9 @@
 ## 回路図
 　KiCadフォルダ内のPC-8001mk2_SD.pdfを参照してください。
 
-[回路図](https://github.com/yanataka60/PC-8001_SD/blob/main/Kicad/PC-8001_SD.pdf)
+[回路図](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/Kicad/PC-8001mk2_SD.pdf)
 
-![PC-8001mk2_SD](https://github.com/yanataka60/PC-8001_SD/blob/main/Kicad/PC-8001_SD.jpg)
+![PC-8001mk2_SD](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/Kicad/PC-8001mk2_SD.jpg)
 
 ## 部品
 |番号|品名|数量|備考|
@@ -43,7 +43,7 @@
 |7|4|MOSI|
 |8|6|CS|
 
-![MicroSD Card Adapter](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/MicroSD%20Card%20Adapter.JPG)
+![MicroSD Card Adapter](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/MicroSD%20Card%20Adapter.JPG)
 
 ## ROMへの書込み
 　Z80フォルダ内のEXT_ROM_SHIFT_OFF.bin又はEXT_ROM_SHIFT_ON.binをROMライター(TL866II Plus等)を使って2764又は28C64に書き込み、本体内拡張ROMソケットに装着します。
@@ -76,12 +76,11 @@
 ## 接続
 　PC-8001本体後ろの拡張端子に接続します。
 ### フラットケーブルによる接続
-![Flat cable1](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/PC-8001_SD(3).JPG)
-![Flat cable2](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/PC-8001_SD(5).JPG)
+![Flat cable1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(3).JPG)
 
 ### カードエッジコネクタによる接続
-![Card Edge Connector1](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/PC-8001_SD(2).JPG)
-![Card Edge Connector2](https://github.com/yanataka60/PC-8001_SD/blob/main/JPEG/PC-8001_SD(4).JPG)
+![Card Edge Connector1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(4).JPG)
+![Card Edge Connector1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(5).JPG)
 
 ## SD-CARD
 　FAT16又はFAT32が認識できます。
