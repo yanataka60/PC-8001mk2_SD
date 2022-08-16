@@ -102,7 +102,7 @@
 #### 本体後ろから見て左側に取り付ける補助版のサイズ(画像左側)
 　84mm(奥行)×55mm(幅)×1.6mm(厚さ)
 
-画像では不要となった基板をカットしてセロテープで仮止めしています。
+画像では不用となった基板をカットしてセロテープで仮止めしています。
 
 ![Slot2](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(4).JPG)
 ![Slot3](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/PC-8001mk2_SD(5).JPG)
