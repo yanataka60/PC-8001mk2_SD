@@ -20,7 +20,9 @@
 ## 部品
 |番号|品名|数量|備考|
 | ------------ | ------------ | ------------ | ------------ |
-|J2|Micro_SD_Card_Kit|1|秋月電子通商 AE-microSD-LLCNV (注1)(注3)|
+||J2、J3のいずれか|||
+|J2|Micro_SD_Card_Kit|1|秋月電子通商 AE-microSD-LLCNV (注1)|
+|J3|MicroSD Card Adapter|1|Arduino等に使われる5V電源に対応したもの|
 |U1|74LS04|1||
 |U2|74LS30|1||
 |U3|8255|1||
@@ -32,7 +34,24 @@
 
 　　　注2)Arduino Pro MiniはA4、A5ピンも使っています。
 
-　　　注3)Arduino等に使われる5V電源に対応したMicroSD Card Adapterも正しく信号を繋げば使えます。変換基板等繋ぎ方は適宜対応してください。
+### MicroSD Card Adapterを使う(Rev1.1)
+J3に取り付けます。
+
+MicroSD Card Adapterについているピンヘッダを除去してハンダ付けするのが一番確実ですが、J3の穴にMicroSD Card Adapterをぴったりと押しつけ、裏から多めにハンダを流し込むことでハンダ付けをする方法もあります。なお、この方法の時にはしっかりハンダ付けが出来たかテスターで導通を確認しておいた方が安心です。
+
+ハンダ付けに自信のない方はJ2の秋月電子通商　AE-microSD-LLCNVをお使いください。AE-microSD-LLCNVならパワーLED、アクセスLEDが付いています。
+
+![MicroSD Card Adapter1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/MicroSD%20Card%20Adapter(1).JPG)
+
+![MicroSD Card Adapter2](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/MicroSD%20Card%20Adapter(2).JPG)
+
+![MicroSD Card Adapter3](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/MicroSD%20Card%20Adapter(3).JPG)
+
+![MicroSD Card Adapter4](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/MicroSD%20Card%20Adapter(4).JPG)
+
+
+### MicroSD Card Adapterを使う(Rev1.0)
+以下のピン番号を参考に変換基板等繋ぎ方は適宜対応してください。
 
 |AE-microSD-LLCNVピン番号|MicroSD Card Adapterピン番号|信号名|
 | ---------------------- | -------------------------- | ---- |
@@ -401,3 +420,7 @@ https://bugfire2009.ojaru.jp/semigra/
 2022.8.21
 
 　MONITOR Lコマンドで読み込み時にオートラン機能ファイルであればCTRL+B、CLOADをSD用に書き換えるようにした
+
+2022.9.25
+
+MicroSD Card Adapter用の端子を付加し、基板をRev1.1に更新。
