@@ -4,9 +4,9 @@ EELAYER END
 $Descr User 13780 8268
 encoding utf-8
 Sheet 1 1
-Title "PC-8001_SD"
-Date "2022-01-14"
-Rev "Rev1.1"
+Title "PC-8001mk2_SD"
+Date "2022-08-15"
+Rev "Rev1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -824,4 +824,47 @@ Wire Wire Line
 	9900 2900 10800 2900
 Wire Wire Line
 	9900 2800 10800 2800
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 63161793
+P 11850 4250
+F 0 "J3" H 11800 3800 50  0000 L CNN
+F 1 "MicroSD Card Adapter" H 11400 3650 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 11850 4250 50  0001 C CNN
+F 3 "~" H 11850 4250 50  0001 C CNN
+	1    11850 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 4050 11400 4050
+Wire Wire Line
+	11650 4150 11400 4150
+Wire Wire Line
+	11650 4250 11400 4250
+Wire Wire Line
+	11650 4350 11400 4350
+Wire Wire Line
+	11650 4450 11400 4450
+Wire Wire Line
+	11650 4550 11400 4550
+Text Label 11400 4050 0    50   ~ 0
+GND
+Text Label 11400 4150 0    50   ~ 0
++5V
+Text Label 11400 4250 0    50   ~ 0
+MISO
+Text Label 11400 4350 0    50   ~ 0
+MOSI
+Text Label 11400 4450 0    50   ~ 0
+SCK
+Text Label 11400 4550 0    50   ~ 0
+CS
+Text Label 10400 2800 0    50   ~ 0
+SCK
+Text Label 10400 2900 0    50   ~ 0
+MISO
+Text Label 10400 3000 0    50   ~ 0
+MOSI
+Text Label 10400 3100 0    50   ~ 0
+CS
 $EndSCHEMATC
