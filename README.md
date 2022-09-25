@@ -423,4 +423,4 @@ https://bugfire2009.ojaru.jp/semigra/
 
 2022.9.25
 
-MicroSD Card Adapter用の端子を付加し、基板をRev1.1に更新。
+　MicroSD Card Adapter用の端子を付加し、基板をRev1.1に更新。
