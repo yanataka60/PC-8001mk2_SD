@@ -115,11 +115,11 @@ MicroSD Card Adapterについているピンヘッダを除去してハンダ付
 
 ![mk2_EXTROM1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2_EXTROM1.jpg)
 
-　拡張スロットボックスを外します。
+　4か所のネジを外して拡張スロットボックスを外します。
 
 ![mk2_EXTROM2](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2_EXTROM2.jpg)
 
-　空きICソケットがあるのでPC-8001mk2_SD用拡張ROMを取り付けます。
+　空きICソケットがあるのでPC-8001mk2_SD用拡張ROMを取り付けます。ICの向きは左下がPin1になります。向きを間違えたまま電源を入れるとROMが壊れますので注意してください。
 
 ![mk2_EXTROM2](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2_EXTROM3.jpg)
 
@@ -141,7 +141,7 @@ MicroSD Card Adapterについているピンヘッダを除去してハンダ付
 
 ![mk2SR_EXTROM3](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2SR_EXTROM3.jpg)
 
-　空きICソケットがあるのでPC-8001mk2_SD用拡張ROMを取り付けます。
+　空きICソケットがあるのでPC-8001mk2_SD用拡張ROMを取り付けます。ICの向きは左下がPin1になります。向きを間違えたまま電源を入れるとROMが壊れますので注意してください。
 
 ![mk2SR_EXTROM4](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2SR_EXTROM4.jpg)
 
