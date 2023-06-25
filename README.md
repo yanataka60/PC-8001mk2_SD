@@ -127,6 +127,30 @@ MicroSD Card Adapterについているピンヘッダを除去してハンダ付
 
 　拡張スロットボックス、ケースを元に戻して終了です。なお、拡張スロットボックスが上手くはまっていないままPC-8001mk2の電源を入れると暴走するそうです。きちんと嵌っているか確認してください。
 
+### PC-8001mk2SRへ拡張ROMの取付
+#### 注)PC-8001mk2SRでは、Nモード、N80モードではPC-8001mk2_SDが使えますが、N80SRモードでは使えません。
+　本体を裏返して3か所のネジを外します。
+
+![mk2SR_EXTROM1](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2SR_EXTROM1.jpg)
+
+　上カバーの後部を持ち上げます。
+
+![mk2SR_EXTROM2](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2SR_EXTROM2.jpg)
+
+　上カバーを前にずらすとカバーのツメが外れます。
+
+![mk2SR_EXTROM3](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2SR_EXTROM3.jpg)
+
+　空きICソケットがあるのでPC-8001mk2_SD用拡張ROMを取り付けます。
+
+![mk2SR_EXTROM4](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2_EXTROM4.jpg)
+
+![mk2SR_EXTROM5](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2_EXTROM5.jpg)
+
+　カバーを戻してからPC-8001mk_SD基板を拡張スロットに挿しますが、この段階で挿しても大丈夫です。
+
+![mk2SR_EXTROM6](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2_EXTROM6.jpg)
+
 ## Arduinoプログラム
 　PC-8001_SDと全く同じものを使用しています。
 
