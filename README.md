@@ -151,6 +151,8 @@ MicroSD Card Adapterについているピンヘッダを除去してハンダ付
 
 ![mk2SR_EXTROM6](https://github.com/yanataka60/PC-8001mk2_SD/blob/main/JPEG/mk2SR_EXTROM6.jpg)
 
+　ケースを元に戻して終了です。
+
 ## Arduinoプログラム
 　PC-8001_SDと全く同じものを使用しています。
 
