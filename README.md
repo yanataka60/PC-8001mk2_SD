@@ -115,7 +115,7 @@ MicroSD Card Adapterについているピンヘッダを除去してハンダ付
 #### 2023.7.9追記
 #### FDDを繋いでいない時は問題ないのですが、FDDを繋ぐとEXT_ROM_SHIFT_OFF.bin、EXT_ROM_PRESS_A_OFF.binが正常に動作しない時があります。
 #### Nモードでは正常に動作しますので問題ありません。
-#### N80モードでN80 DISK BASICを起動したとき、「How many files?」と聞かれますが、この数字を入力し、RETURNを押した直後にSHIFTキー又は、Aキーのチェックが行われるようです。
+#### N80モードでN80 DISK BASICを起動したとき、「How many files?」と聞かれますが、この数字を入力し、RETURNを押した直後にSHIFTキー又は、Aキーのチェックが行われるため、数字を入力するためにSHIFTキー又は、Aキーを押さずにRETURNを押すとSDが有効なまま起動してしまう。
 #### 対策としては、
 #### 1.「How many files?」と聞かれてもSHIFTキー又は、Aキーを離さずにRETURNを押して起動させる。
 #### 2.N80 DISK BASIC起動後に次の対策プログラムをSDからロード、実行する。
