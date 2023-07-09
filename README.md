@@ -710,3 +710,7 @@ https://bugfire2009.ojaru.jp/semigra/
 2023.6.25
 
 　拡張ROMの取付方法を追記しました。
+
+2023.7.9
+
+　N80モードでN80 DISK BASICを使うときの対策を追加しました。
