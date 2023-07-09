@@ -116,21 +116,36 @@ MicroSD Card Adapterについているピンヘッダを除去してハンダ付
 #### FDDを繋いでいない時は問題ないのですが、FDDを繋ぐとEXT_ROM_SHIFT_OFF.bin、EXT_ROM_PRESS_A_OFF.binが正常に動作しないようです。
 #### Nモードでは正常に動作しますので問題ありません。
 #### N80モードでN80 DISK BASICを起動するためにFDDを繋ぎSHIFTキー又は、Aキーを押しながら電源ON又はリセットしてもSDが有効になってしまいます。
-#### 対策プログラムを作りました。「N80 DISK BASIC REPAIR」フォルダにあるN80 DISK BASIC REPAIR.cmtをSDにコピーしておいてください。
-#### N80モードでN80 DISK BASICを起動します。SHIFTキー又は、Aキーを押しながら起動する必要はありません。
-#### N80 Disk BASICが起動したらHow many filesに値を入力します。
-#### OKが表示されたら「files N80」で検索し、見つかった「N80 DISK BASIC REPAIR.cmt」をロード、実行します。
-#### これでDISK BASICが正常に利用できます。
-#### N80 DISK BASIC REPAIR.cmtプログラム
-#### 　　10 POKE &HF139,&HFF
-#### 　　20 POKE &HF13A,&HD6
-#### 　　30 POKE &HF14B,&H4C
-#### 　　40 POKE &HF14C,&HD7
-#### 　　50 POKE &HF14E,&H2
-#### 　　60 POKE &HF14F,&HDC
-#### 　　70 POKE &HF142,&HE7
-#### 　　80 POKE &HF143,&HD6
-#### 　　90 NEW
+ 対策プログラムを作りました。「N80 DISK BASIC REPAIR」フォルダにあるN80 DISK BASIC REPAIR.cmtをSDにコピーしておいてください。
+
+ N80モードでN80 DISK BASICを起動します。SHIFTキー又は、Aキーを押しながら起動する必要はありません。
+
+ N80 Disk BASICが起動したらHow many filesに値を入力します。
+
+ OKが表示されたら「files N80」で検索し、見つかった「N80 DISK BASIC REPAIR.cmt」をロード、実行します。
+
+ これでDISK BASICが正常に利用できます。
+
+ N80 DISK BASIC REPAIR.cmtプログラム
+
+ 　　10 POKE &HF139,&HFF
+
+ 　　20 POKE &HF13A,&HD6
+
+ 　　30 POKE &HF14B,&H4C
+
+ 　　40 POKE &HF14C,&HD7
+
+ 　　50 POKE &HF14E,&H2
+
+ 　　60 POKE &HF14F,&HDC
+
+ 　　70 POKE &HF142,&HE7
+
+ 　　80 POKE &HF143,&HD6
+
+ 　　90 NEW
+
 
 
 ### PC-8001mk2へ拡張ROMの取付
