@@ -122,15 +122,15 @@ MicroSD Card Adapterについているピンヘッダを除去してハンダ付
 #### OKが表示されたら「files N80」で検索し、見つかった「N80 DISK BASIC REPAIR.cmt」をロード、実行します。
 #### これでDISK BASICが正常に利用できます。
 #### N80 DISK BASIC REPAIR.cmtプログラム
-####　　10 POKE &HF139,&HFF
-####　　20 POKE &HF13A,&HD6
-####　　30 POKE &HF14B,&H4C
-####　　40 POKE &HF14C,&HD7
-####　　50 POKE &HF14E,&H2
-####　　60 POKE &HF14F,&HDC
-####　　70 POKE &HF142,&HE7
-####　　80 POKE &HF143,&HD6
-####　　90 NEW
+#### 　　10 POKE &HF139,&HFF
+#### 　　20 POKE &HF13A,&HD6
+#### 　　30 POKE &HF14B,&H4C
+#### 　　40 POKE &HF14C,&HD7
+#### 　　50 POKE &HF14E,&H2
+#### 　　60 POKE &HF14F,&HDC
+#### 　　70 POKE &HF142,&HE7
+#### 　　80 POKE &HF143,&HD6
+#### 　　90 NEW
 
 
 ### PC-8001mk2へ拡張ROMの取付
