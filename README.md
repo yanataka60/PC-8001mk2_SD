@@ -113,10 +113,13 @@ MicroSD Card Adapterについているピンヘッダを除去してハンダ付
 　また、四つを切り替えるためには126行から125行までを必要な行についてセミコロン (;)を削除し不必要な行にセミコロン (;)をつけてコメントアウトします。
 
 #### 2023.7.9追記
-#### FDDを繋いでいない時は問題ないのですが、FDDを繋ぐとEXT_ROM_SHIFT_OFF.bin、EXT_ROM_PRESS_A_OFF.binが正常に動作しないようです。
+#### FDDを繋いでいない時は問題ないのですが、FDDを繋ぐとEXT_ROM_SHIFT_OFF.bin、EXT_ROM_PRESS_A_OFF.binが正常に動作しない時があります。
 #### Nモードでは正常に動作しますので問題ありません。
-#### N80モードでN80 DISK BASICを起動するためにFDDを繋ぎSHIFTキー又は、Aキーを押しながら電源ON又はリセットしてもSDが有効になってしまいます。
- 対策プログラムを作りました。「N80 DISK BASIC REPAIR」フォルダにあるN80 DISK BASIC REPAIR.cmtをSDにコピーしておいてください。
+#### N80モードでN80 DISK BASICを起動したとき、「How many files?」と聞かれますが、この数字を入力し、RETURNを押した直後にSHIFTキー又は、Aキーのチェックが行われるようです。
+#### 対策としては、
+#### 1.「How many files?」と聞かれてもSHIFTキー又は、Aキーを離さずにRETURNを押して起動させる。
+#### 2.N80 DISK BASIC起動後に次の対策プログラムをSDからロード、実行する。
+ 「N80 DISK BASIC REPAIR」フォルダにあるN80 DISK BASIC REPAIR.cmtをSDにコピーしておいてください。
 
  N80モードでN80 DISK BASICを起動します。SHIFTキー又は、Aキーを押しながら起動する必要はありません。
 
