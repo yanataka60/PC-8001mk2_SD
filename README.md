@@ -749,3 +749,7 @@ https://bugfire2009.ojaru.jp/semigra/
 2024.3.12
 
 　電源が入ったままでSD-CARDを抜くと再度SD-CARDを挿入してもSD-CARDにアクセスできない問題を解消した。
+
+2024.9.6
+
+　最新のEXT-ROMであるにも関わらず内藤様のXeGraderで「SD drive of newer detected.」と判定できないバクを修正
