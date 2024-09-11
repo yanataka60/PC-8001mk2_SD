@@ -646,6 +646,7 @@ https://bugfire2009.ojaru.jp/semigra/
 　書込み用でオープンされているファイルに書き込み開始アドレスから書き込み終了アドレスまでのメモリ内容を機械語フォーマットで書出し、クローズする。
 
 　WORK AREA:FF3D～FF3E 書き込み開始アドレス
+
 　          FF3F～FF40 書き込み終了アドレス
 
 　正常終了 CF=0、異常終了 CF=1
@@ -758,3 +759,7 @@ https://bugfire2009.ojaru.jp/semigra/
 2024.9.6
 
 　最新のEXT-ROMであるにも関わらず内藤様のXeGraderで「SD drive of newer detected.」と判定できないバクを修正
+
+2024.9.11
+
+　サービスルーチンでの使用ワークエリアを追記
