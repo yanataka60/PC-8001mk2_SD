@@ -647,7 +647,7 @@ https://bugfire2009.ojaru.jp/semigra/
 
 　WORK AREA:FF3D～FF3E 書き込み開始アドレス
 
-　          FF3F～FF40 書き込み終了アドレス
+　　　　　　FF3F～FF40 書き込み終了アドレス
 
 　正常終了 CF=0、異常終了 CF=1
 
